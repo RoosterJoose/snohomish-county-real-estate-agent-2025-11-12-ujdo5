@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Snohomish County's #1 Real Estate Agent - Expert guidance, proven results, and local market expertise to help you navigate confidently and sell faster.">
+    <meta name="keywords" content="real estate agent, Snohomish County, property sales, home buying, local expertise">
+    <meta name="author" content="Bryce Johnson">
+    <meta property="og:title" content="Snohomish County Real Estate Agent">
+    <meta property="og:description" content="Snohomish County's #1 Real Estate Agent - Expert guidance, proven results, and local market expertise.">
+    <meta property="og:type" content="website">
+    <title>Terms of Service | Snohomish County Real Estate Agent</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        :root {
+            --primary: #5B4BFF;
+            --secondary: #EEF0FF;
+            --accent: #00E5A8;
+        }
+        
+        body {
+            background-color: #0f172a;
+            color: #f1f5f9;
+        }
+        
+        .gradient-primary {
+            background: linear-gradient(135deg, #5B4BFF 0%, #7c3aed 100%);
+        }
+        
+        .gradient-accent {
+            background: linear-gradient(135deg, #00E5A8 0%, #10b981 100%);
+        }
+        
+        .btn-outline {
+            background: transparent;
+            border: 2px solid #5B4BFF;
+            color: #5B4BFF;
+            transition: all 0.3s ease-out;
+        }
+        
+        .btn-outline:hover {
+            background: #5B4BFF;
+            color: white;
+            transform: scale(1.05);
+        }
+        
+        .btn-primary {
+            background: #5B4BFF;
+            color: white;
+            transition: all 0.3s ease-out;
+        }
+        
+        .btn-primary:hover {
+            background: #4c3ce0;
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(91, 75, 255, 0.3);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease-out;
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+        
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, rgba(91, 75, 255, 0.1) 0%, rgba(0, 229, 168, 0.1) 100%);
+            border-radius: 12px;
+            color: #00E5A8;
+        }
+        
+        .section-heading {
+            font-size: 2.25rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #5B4BFF;
+            margin-bottom: 1rem;
+        }
+        
+        @media (min-width: 768px) {
+            .section-heading {
+                font-size: 3rem;
+            }
+        }
+        
+        .faq-icon {
+            transition: transform 0.3s ease-out;
+        }
+        
+        .faq-icon.rotate-180 {
+            transform: rotate(180deg);
+        }
+        
+        .testimonial-card {
+            background: linear-gradient(135deg, rgba(91, 75, 255, 0.05) 0%, rgba(0, 229, 168, 0.05) 100%);
+            border: 1px solid rgba(91, 75, 255, 0.2);
+        }
+        
+        .star-rating {
+            color: #fbbf24;
+        }
+        
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+        
+        header {
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(91, 75, 255, 0.1);
+        }
+        
+        .nav-link {
+            color: #cbd5e1;
+            transition: color 0.3s ease-out;
+            font-weight: 500;
+        }
+        
+        .nav-link:hover {
+            color: #5B4BFF;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(91, 75, 255, 0.1) 0%, rgba(0, 229, 168, 0.05) 100%);
+        }
+
+        .policy-content {
+            background: linear-gradient(135deg, rgba(91, 75, 255, 0.05) 0%, rgba(0, 229, 168, 0.05) 100%);
+            border: 1px solid rgba(91, 75, 255, 0.2);
+        }
+
+        .policy-section {
+            margin-bottom: 3rem;
+        }
+
+        .policy-section h2 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: #5B4BFF;
+            margin-bottom: 1rem;
+            margin-top: 2rem;
+        }
+
+        .policy-section h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #00E5A8;
+            margin-bottom: 0.75rem;
+            margin-top: 1.5rem;
+        }
+
+        .policy-section p {
+            color: #cbd5e1;
+            line-height: 1.75;
+            margin-bottom: 1rem;
+        }
+
+        .policy-section ul {
+            color: #cbd5e1;
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .policy-section li {
+            margin-bottom: 0.5rem;
+            line-height: 1.75;
+        }
+    </style>
+</head>
+<body class="smooth-scroll">
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 w-full">
+        <nav class="max-w-7xl mx-auto px-8 md:px-16 py-6 flex items-center justify-between">
+            <div class="flex items-center justify-between w-full">
+                <!-- Logo -->
+                <a href="https://RoosterJoose.github.io/snohomish-county-real-estate-agent-2025-11-12-ujdo5" class="flex items-center gap-2">
+                    <div class="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
+                        <i class="fas fa-home text-white text-lg"></i>
+                    </div>
+                    <span class="text-xl font-bold text-white hidden sm:inline">Cascadia Living</span>
+                </a>
+
+                <!-- Back Button -->
+                <a href="https://RoosterJoose.github.io/snohomish-county-real-estate-agent-2025-11-12-ujdo5" class="nav-link">
+                    ← Back
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-20 md:py-32 relative overflow-hidden">
+        <div class="absolute inset-0 overflow-hidden">
+            <div class="absolute -top-40 -right-40 w-80 h-80 rounded-full bg-[#5B4BFF] opacity-10 blur-3xl"></div>
+            <div class="absolute -bottom-40 -left-40 w-80 h-80 rounded-full bg-[#00E5A8] opacity-10 blur-3xl"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-8 md:px-16 relative z-10">
+            <div class="max-w-3xl">
+                <h1 class="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight tracking-tight">
+                    Terms of <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#5B4BFF] to-[#00E5A8]">Service</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-slate-300 leading-relaxed font-medium">
+                    Please read these terms carefully before using our services.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terms of Service Content -->
+    <section class="py-20 md:py-32 bg-[#0f172a]">
+        <div class="max-w-4xl mx-auto px-8 md:px-16">
+            <div class="policy-content rounded-2xl p-12">
+                <!-- Introduction -->
+                <div class="policy-section">
+                    <h2>Introduction</h2>
+                    <p>
+                        Welcome to Cascadia Living ("Company," "we," "us," "our," or "Service"). These Terms of Service ("Terms") constitute a legally binding agreement between you ("User," "you," or "your") and Cascadia Living regarding your use of our website, services, and related offerings.
+                    </p>
+                    <p>
+                        By accessing or using our website and services, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree with any part of these Terms, you should not use our services. We reserve the right to modify these Terms at any time, and your continued use of our services constitutes acceptance of any changes.
+                    </p>
+                    <p>
+                        These Terms apply to all visitors, users, and others who access or use our services. If you are using our services on behalf of an organization, you represent and warrant that you have the authority to bind that organization to these Terms.
+                    </p>
+                </div>
+
+                <!-- User Agreements -->
+                <div class="policy-section">
+                    <h2>User Agreements and Representations</h2>
+                    
+                    <h3>Eligibility</h3>
+                    <p>
+                        You represent and warrant that you are at least 18 years of age and possess the legal authority to enter into this agreement. If you are using our services on behalf of a business entity, you represent that you have the authority to bind such entity to these Terms.
+                    </p>
+
+                    <h3>Account Responsibility</h3>
+                    <p>
+                        If you create an account with us, you are responsible for maintaining the confidentiality of your account information and password. You agree to accept responsibility for all activities that occur under your account. You must notify us immediately of any unauthorized use of your account or any other breach of security.
+                    </p>
+
+                    <h3>Accurate Information</h3>
+                    <p>
+                        You agree to provide accurate, current, and complete information when using our services. You are responsible for updating your information to keep it accurate and current. We reserve the right to suspend or terminate your account if we discover that any information you provided is false, inaccurate, or misleading.
+                    </p>
+
+                    <h3>User Conduct</h3>
+                    <p>
+                        You agree to use our services only for lawful purposes and in a way that does not infringe upon the rights of others or restrict their use and enjoyment of our services. Prohibited behavior includes:
+                    </p>
+                    <ul>
+                        <li>Harassing or causing distress or inconvenience to any person</li>
+                        <li>Transmitting obscene or offensive content</li>
+                        <li>Disrupting the normal flow of dialogue within our services</li>
+                        <li>Attempting to gain unauthorized access to our systems</li>
+                        <li>Collecting or tracking personal information of others without consent</li>
+                        <li>Spamming, phishing, or distributing malware</li>
+                    </ul>
+                </div>
+
+                <!-- Acceptable Use -->
+                <div class="policy-section">
+                    <h2>Acceptable Use Policy</h2>
+                    
+                    <h3>Permitted Use</h3>
+                    <p>
+                        You may use our services solely for lawful purposes and in accordance with these Terms. You agree not to use our services in any way that violates any applicable law, regulation, or these Terms.
+                    </p>
+
+                    <h3>Prohibited Activities</h3>
+                    <p>
+                        You agree not to engage in any of the following prohibited activities:
+                    </p>
+                    <ul>
+                        <li>Copying, distributing, or transmitting any content without proper authorization</li>
+                        <li>Attempting to reverse engineer, decompile, or discover the source code or underlying technology</li>
+                        <li>Creating derivative works based on our services without permission</li>
+                        <li>Interfering with or disrupting the integrity or performance of our services</li>
+                        <li>Attempting to gain unauthorized access to our systems or networks</li>
+                        <li>Removing or altering any proprietary notices or labels on our services</li>
+                        <li>Using automated tools or scripts to access our services without authorization</li>
+                        <li>Selling, trading, or transferring your account to another party</li>
+                    </ul>
+
+                    <h3>Intellectual Property Rights</h3>
+                    <p>
+                        All content, features, and functionality of our services, including but not limited to text, graphics, logos, images, and software, are the exclusive property of Cascadia Living or our content suppliers and are protected by international copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, or transmit any content without our prior written permission.
+                    </p>
+
+                    <h3>User-Generated Content</h3>
+                    <p>
+                        If you submit, post, or display content on our services, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, and distribute such content. You represent and warrant that you own or have the necessary rights to all user-generated content you submit and that such content does not violate any third-party rights.
+                    </p>
+                </div>
+
+                <!-- Limitation of Liability -->
+                <div class="policy-section">
+                    <h2>Limitation of Liability and Disclaimers</h2>
+                    
+                    <h3>Disclaimer of Warranties</h3>
+                    <p>
+                        Our services are provided on an "AS IS" and "AS AVAILABLE" basis. We make no warranties, expressed or implied, regarding our services, including but not limited to implied warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not warrant that our services will be uninterrupted, error-free, or free from viruses or other harmful components.
+                    </p>
+
+                    <h3>Limitation of Damages</h3>
+                    <p>
+                        In no event shall Cascadia Living, its officers, directors, employees, or agents be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to damages for loss of profits, goodwill, use, data, or other intangible losses, even if we have been advised of the possibility of such damages.
+                    </p>
+
+                    <h3>Cap on Liability</h3>
+                    <p>
+                        Our total liability to you for any claim arising out of or relating to these Terms or our services shall not exceed the amount you paid to us, if any, in the twelve months preceding the claim. Some jurisdictions do not allow the exclusion or limitation of liability, so this limitation may not apply to you.
+                    </p>
+
+                    <h3>Third-Party Content and Links</h3>
+                    <p>
+                        Our services may contain links to third-party websites and content. We do not endorse, warrant, or assume responsibility for the accuracy, legality, or appropriateness of such third-party content. Your access to and use of third-party websites is at your own risk and subject to their terms and conditions.
+                    </p>
+
+                    <h3>Professional Advice Disclaimer</h3>
+                    <p>
+                        While Cascadia Living provides real estate services and expertise, nothing on our website or in our communications should be construed as professional legal, financial, or investment advice. We recommend that you consult with qualified professionals regarding any real estate transactions or decisions. We are not responsible for any losses or damages resulting from your reliance on information provided through our services.
+                    </p>
+                </div>
+
+                <!-- Indemnification -->
+                <div class="policy-section">
+                    <h2>Indemnification</h2>
+                    <p>
+                        You agree to indemnify, defend, and hold harmless Cascadia Living, its officers, directors, employees, agents, and successors from any and all claims, damages, losses, liabilities, and expenses, including reasonable attorneys' fees, arising out of or related to your use of our services, your violation of these Terms, or your violation of any third-party rights.
+                    </p>
+                </div>
+
+                <!-- Termination -->
+                <div class="policy-section">
+                    <h2>Termination</h2>
+                    <p>
+                        We reserve the right to terminate or suspend your account and access to our services at any time, for any reason, without notice or liability. Causes for termination include, but are not limited to, violation of these Terms, unauthorized access attempts, or any conduct we deem harmful to our services or other users.
+                    </p>
+                    <p>
+                        Upon termination, your right to use our services will immediately cease. All provisions of these Terms that by their nature should survive termination shall remain in effect, including limitations on liability, indemnification, and dispute resolution.
+                    </p>
+                </div>
+
+                <!-- Dispute Resolution -->
+                <div class="policy-section">
+                    <h2>Dispute Resolution and Governing Law</h2>
+                    
+                    <h3>Governing Law</h3>
+                    <p>
+                        These Terms and your use of our services shall be governed by and construed in accordance with the laws of the State of Washington, without regard to its conflict of law provisions.
+                    </p>
+
+                    <h3>Arbitration</h3>
+                    <p>
+                        Any dispute, claim, or controversy arising out of or relating to these Terms or our services shall be resolved by binding arbitration administered by the American Arbitration Association (AAA) under its Commercial Arbitration Rules. The arbitration shall be conducted in Snohomish County, Washington, and shall be governed by the Federal Arbitration Act.
+                    </p>
+
+                    <h3>Exceptions</h3>
+                    <p>
+                        Notwithstanding the arbitration provision, either party may seek injunctive or other equitable relief in court to prevent irreparable harm or to enforce intellectual property rights.
+                    </p>
+                </div>
+
+                <!-- Modifications -->
+                <div class="policy-section">
+                    <h2>Modifications to Terms</h2>
+                    <p>
+                        We reserve the right to modify these Terms at any time. Changes will be effective immediately upon posting to our website. Your continued use of our services following any modifications constitutes your acceptance of the updated Terms. We encourage you to review these Terms periodically to stay informed of any changes.
+                    </p>
+                </div>
+
+                <!-- Severability -->
+                <div class="policy-section">
+                    <h2>Severability</h2>
+                    <p>
+                        If any provision of these Terms is found to be invalid, illegal, or unenforceable by a court of competent jurisdiction, such provision shall be severed, and the remaining provisions shall remain in full force and effect to the maximum extent permitted by law.
+                    </p>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="policy-section">
+                    <h2>Contact Information</h2>
+                    <p>
+                        If you have any questions, concerns, or complaints regarding these Terms of Service or our services, please contact us at:
+                    </p>
+                    <p>
+                        <strong>Cascadia Living</strong><br>
+                        Email: <a href="mailto:johnson.bryce@gmail.com" class="text-[#00E5A8] hover:text-white transition-colors">johnson.bryce@gmail.com</a><br>
+                        Website: <a href="http://cascadialiving.com" class="text-[#00E5A8] hover:text-white transition-colors">cascadialiving.com</a>
+                    </p>
+                    <p>
+                        We will make every effort to respond to your inquiry within 24 hours. Your feedback and concerns are important to us, and we are committed to resolving any issues promptly and professionally.
+                    </p>
+                </div>
+
+                <!-- Entire Agreement -->
+                <div class="policy-section">
+                    <h2>Entire Agreement</h2>
+                    <p>
+                        These Terms, together with our Privacy Policy and any other policies or agreements referenced herein, constitute the entire agreement between you and Cascadia Living regarding your use of our services and supersede all prior negotiations, understandings, and agreements, whether written or oral. If there is any conflict between these Terms and any other agreement, these Terms shall control.
+                    </p>
+                    <p>
+                        <strong>Last Updated: January 2025</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0a0f1f] border-t border-[rgba(91,75,255,0.1)] py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Brand Column -->
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
+                            <i class="fas fa-home text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold text-white">Cascadia Living</span>
+                    </div>
+                    <p class="text-slate-400 mb-6">
+                        Snohomish County's premier real estate agent, delivering expert guidance and proven results for every client.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-[rgba(91,75,255,0.1)] flex items-center justify-center text-[#5B4BFF] hover:bg-[#5B4BFF] hover:text-white transition-all duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-[rgba(91,75,255,0.1)] flex items-center justify-center text-[#5B4BFF] hover:bg-[#5B4BFF] hover:text-white transition-all duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-[rgba(91,75,255,0.1)] flex items-center justify-center text-[#5B4BFF] hover:bg-[#5B4BFF] hover:text-white transition-all duration-300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-[rgba(91,75,255,0.1)] flex items-center justify-center text-[#5B4BFF] hover:bg-[#5B4BFF] hover:text-white transition-all duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6">Quick Links</h4>
+                    <ul class="space-y-4">
+                        <li><a href="https://RoosterJoose.github.io/snohomish-county-real-estate-agent-2025-11-12-ujdo5#features" class="text-slate-400 hover:text-[#00E5A8] transition-colors duration-300">Features</a></li>
+                        <li><a href="https://RoosterJoose.github.io/snohomish-county-real-estate-agent-2025-11-12-ujdo5#benefits" class="text-slate-400 hover:text-[#00E5A8] transition-colors duration-300">Benefits</a></li>
+                        <li><a href="https://RoosterJoose.github.io/snohomish-county-real-estate-agent-2025-11-12-ujdo5#testimonials" class="text-slate-400 hover:text-[#00E5A8] transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="https://RoosterJoose.github.io/snohomish-county-real-estate-agent-2025-11-12-ujdo5#about" class="text-slate-400 hover:text-[#00E5A8] transition-colors duration-300">About Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6">Services</h4>
+                    <ul class="space-y-4">
+                        <li><a href="http://cascadialiving.com" class="text-slate-400 hover:text-[#00E5A8] transition-colors duration-300">Home Buying</a></li>
+                        <li><a href="http://cascadialiving.com" class="text-slate-400 hover:text-[#00E5A8] transition-colors duration-300">Home Selling</a></li>
+                        <li><a href="http://cascadialiving.com" class="text-slate-400 hover:text-[#00E5A8] transition-colors duration-300">Investment Properties</a></li>
+                        <li><a href="http://cascadialiving.com" class="text-slate-400 hover:text-[#00E5A8] transition-colors duration-300">Consultations</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6">Legal</h4>
+                    <ul class="space-y-4">
+                        <li><a href="privacy.html" class="text-slate-400 hover:text-[#00E5A8] transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-slate-400 hover:text-[#00E5A8] transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="blog.html" class="text-slate-400 hover:text-[#00E5A8] transition-colors duration-300">Blog</a></li>
+                        <li><a href="https://RoosterJoose.github.io/snohomish-county-real-estate-agent-2025-11-12-ujdo5#contact" class="text-slate-400 hover:text-[#00E5A8] transition-colors duration-300">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-[rgba(91,75,255,0.1)] pt-8">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                    <p class="text-slate-400 text-sm">
+                        &copy; 2025 Cascadia Living. All rights reserved. | Snohomish County Real Estate Expert
+                    </p>
+                    <div class="flex gap-6">
+                        <a href="privacy.html" class="text-slate-400 hover:text-[#00E5A8] transition-colors duration-300 text-sm">Privacy</a>
+                        <a href="terms.html" class="text-slate-400 hover:text-[#00E5A8] transition-colors duration-300 text-sm">Terms</a>
+                        <a href="blog.html" class="text-slate-400 hover:text-[#00E5A8] transition-colors duration-300 text-sm">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
